@@ -26,5 +26,4 @@ RUN python manage.py collectstatic --noinput
 # RUN python manage.py migrate
 
 # Default command: run gunicorn server
-#CMD ["gunicorn", "djangoExpenses.wsgi:application", "--bind", "0.0.0.0:8000"]
-CMD ["python", "manage.py", "createsuperuser"]
+CMD ["gunicorn", "djangoExpenses.wsgi:application", "--bind", "0.0.0.0:8000"]
