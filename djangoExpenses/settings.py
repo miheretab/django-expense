@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-*=d-y)9afq!nzcjc)$b8&71mt2efg*e(^2hqrv%j2#v_&j7u&%
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['miheretab.onrender.com']
+ALLOWED_HOSTS = ['django-expense.onrender.com']
 
 
 # Application definition
