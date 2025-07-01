@@ -39,9 +39,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-     'expenses',  # Your expenses app
-     'rest_framework',  # Django REST Framework for API support
-     'rest_framework.authtoken',  # Token authentication for DRF
+    'expenses',  # Your expenses app
+    'rest_framework',  # Django REST Framework for API support
+    'rest_framework.authtoken',  # Token authentication for DRF
+    'core',  # Core app for custom management commands'
 ]
 
 MIDDLEWARE = [
